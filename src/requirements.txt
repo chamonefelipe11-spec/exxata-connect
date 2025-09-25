@@ -1,2 +1,0 @@
-streamlit==1.18.1
-supabase-py==2.0.0
