@@ -1,0 +1,29 @@
+exxata-connect/
+├─ package.json
+├─ vite.config.js
+├─ postcss.config.js
+├─ tailwind.config.js
+├─ .env                       # com suas chaves (mostrado abaixo)
+├─ index.html
+├─ src/
+│  ├─ index.css
+│  ├─ main.jsx
+│  ├─ App.jsx
+│  ├─ lib/
+│  │  └─ supabaseClient.js
+│  ├─ contexts/
+│  │  ├─ AuthContext.jsx
+│  │  ├─ ProjectsContext.jsx
+│  │  └─ UsersContext.jsx
+│  ├─ components/
+│  │  ├─ Header.jsx
+│  │  └─ Sidebar.jsx
+│  └─ pages/
+│     ├─ Login.jsx
+│     ├─ Dashboard.jsx
+│     ├─ Projects.jsx
+│     ├─ ProjectDetails.jsx
+│     ├─ Team.jsx
+│     └─ Settings.jsx
+└─ public/
+   └─ logo.png   (use sua imagem da Exxata)
