@@ -1,10 +1,10 @@
 import streamlit as st
-from supabase import create_client, Client
+from supabase import create_client
 
 # Conectar ao Supabase
-url = "https://ndnuhrpghiijqsjzfzto.supabase.co"  # Seu URL Supabase
+url = "https://ndnuhrpghiijqsjzfzto.supabase.co"  # Sua URL Supabase
 key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5kbnVocnBnaGlpanFzanpmenRvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MjQ1NTAsImV4cCI6MjA3NDQwMDU1MH0.vIK3MZNMW9vwS-4u4ZDON1cJduwpjKQqhIk-tl5lB4I"  # Sua chave anon
-supabase: Client = create_client(url, key)
+supabase = create_client(url, key)
 
 # Função de autenticação
 def check_authentication():
@@ -54,3 +54,4 @@ def main():
 # Rodar o app
 if __name__ == "__main__":
     main()
+
